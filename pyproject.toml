@@ -1,0 +1,10 @@
+[project]
+name = "tdt-reader"
+version = "0.1.0"
+description = "Modified version of TDTbin2py from tdt module to include ts info in streams"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.2.4",
+    "tdt>=0.6.7",
+]
